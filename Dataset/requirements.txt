@@ -1,0 +1,10 @@
+streamlit
+pandas
+google-generativeai
+openpyxl
+requests
+python-dotenv
+openai
+tqdm
+retell-sdk
+retell

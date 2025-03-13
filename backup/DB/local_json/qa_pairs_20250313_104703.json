@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Hey, um, so I was a little confused about the price... I thought I saw something about $34, but then it was like, way more?",
+    "answer": "I understand the confusion! So, the $129 covers an ESA letter for up to two pets. It's $134 if you have three or more. It sounds like maybe you saw the installment price with Klarna, which lets you break it up into four interest-free payments. Those payments would be around $32 or $34 each, depending on the total.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "So, like, how does this whole ESA letter thing work, again?",
+    "answer": "No problem! It's pretty simple. First, you fill out our online intake form. Then, you'll process the payment – we talked about the cost a bit earlier. After that, a licensed provider reviews your application. In most states, you'll get your letter within 24 hours. Once it's approved, you'll receive your ESA letter, and you're good to go!",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "Okay, and you said something about different prices for, like, more than two pets?",
+    "answer": "Yep! The ESA letter is $129 for up to two pets. If you have three or more pets that you want on the letter, the price is $134.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "So I gotta wait till Friday to pay, is that gonna be a problem, like, with getting the letter?",
+    "answer": "Not a problem at all! You can complete the payment whenever you're ready. The process won't move forward to the provider review until the payment is processed, but waiting until Friday is totally fine.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "Um... you mentioned something about some states taking longer? Is that gonna be, like, a whole big delay?",
+    "answer": "It depends on your state. In most states, we can get your ESA letter to you within 24 hours of payment and approval. But, if you're in Arkansas, California, Iowa, Louisiana, or Montana, there's a state law requiring a 30-day relationship with the provider before we can issue the letter.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "I think I am good for now, but what if other questions come up?",
+    "answer": "No worries. We are here to help! You can call us at (415) 570-7864, or send us an email at hello@wellnesswag.com.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "So, after I pay, what happens then? Like, how long does it usually take?",
+    "answer": "Once your payment goes through, a licensed provider will review your application. In most states, you'll get your ESA letter within 24 hours. It might take a bit longer in a few states, like Arkansas, California, Iowa, Louisiana, and Montana, because of state regulations there.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  },
+  {
+    "question": "You mentioned Klarna, is that the only way I can pay in installments?",
+    "answer": "Yes, we offer a payment plan option through Klarna, which allows you to split the cost into four interest-free installments. If you're looking for other payment options, feel free to reach out by calling us at (415) 570-7864, or you can always email us at hello@wellnesswag.com.",
+    "call_id": "call_5ca3b6555ac1de3d00df1a4317e"
+  }
+]
