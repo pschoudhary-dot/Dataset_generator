@@ -21,7 +21,10 @@ class RetellDatabase:
         """Initialize database connection and setup paths."""
         # Use Streamlit's session state for database configuration
         if 'db_path' not in st.session_state:
-            st.session_state.db_path = Path(db_name)
+            # Create DB folder in the UI directory
+            db_folder = Path(os.path.dirname(os.path.abspath(__file__))) / "UI" / "DB"
+            db_folder.mkdir(parents=True, exist_ok=True)
+            st.session_state.db_path = db_folder / db_name
         
         self.db_path = st.session_state.db_path
         self.db_exists = self.db_path.exists()

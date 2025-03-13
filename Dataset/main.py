@@ -92,6 +92,12 @@ db_path = db_folder / "retell.sqlite"
 
 # Database status
 st.subheader("Database Status")
+
+# Initialize database path
+db_folder = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) / "UI" / "DB"
+db_path = db_folder / "retell.sqlite"
+
+# Database status
 if db_path.exists():
     st.success(f"✅ Database found at {db_path}")
     

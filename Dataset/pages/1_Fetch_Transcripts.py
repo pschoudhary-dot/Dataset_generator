@@ -19,6 +19,9 @@ if dataset_dir not in sys.path:
 from create_db import RetellDatabase, init_database
 from fetch_call_transcript import RetellTranscriptFetcher, SpecificCallFetcher
 
+# Define the correct database path
+DB_PATH = "/mount/src/dataset_generator/DB/UI/retell.sqlite"
+
 # Page configuration
 st.set_page_config(
     page_title="Fetch Call Transcripts",
@@ -34,7 +37,7 @@ st.header("1. Database Setup")
 
 # Initialize database if not exists
 if 'db' not in st.session_state:
-    st.session_state.db = init_database()
+    st.session_state.db = init_database(db_path=DB_PATH)
     st.success("✅ Database initialized successfully!")
 
 # Fetch transcripts section
@@ -68,8 +71,8 @@ with fetch_tab1:
             status_text = st.empty()
             
             try:
-                # Initialize the fetcher
-                fetcher = RetellTranscriptFetcher()
+                # Initialize the fetcher with the correct DB path
+                fetcher = RetellTranscriptFetcher(db_path=DB_PATH)
                 
                 # Fetch all calls
                 status_text.text("Fetching calls from Retell API...")
@@ -103,8 +106,8 @@ with fetch_tab2:
             st.error("❌ Please enter at least one Call ID")
         else:
             try:
-                # Initialize the fetcher
-                fetcher = SpecificCallFetcher()
+                # Initialize the fetcher with the correct DB path
+                fetcher = SpecificCallFetcher(db_path=DB_PATH)
                 
                 # Fetch specific calls
                 result = fetcher.fetch_specific_calls(call_ids.split(','))
