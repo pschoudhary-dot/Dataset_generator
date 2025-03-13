@@ -37,7 +37,7 @@ st.header("1. Database Setup")
 
 # Initialize database if not exists
 if 'db' not in st.session_state:
-    st.session_state.db = init_database(db_path=DB_PATH)
+    st.session_state.db = init_database()
     st.success("✅ Database initialized successfully!")
 
 # Fetch transcripts section
