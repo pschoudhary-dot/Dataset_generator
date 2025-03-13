@@ -94,7 +94,7 @@ db_path = db_folder / "retell.sqlite"
 st.subheader("Database Status")
 
 # Initialize database path
-db_folder = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) / "UI" / "DB"
+db_folder = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) / "DB"
 db_path = db_folder / "retell.sqlite"
 
 # Database status
